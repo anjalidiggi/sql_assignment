@@ -1,5 +1,5 @@
-                                                                  SQL ASSIGNMENT
-1.Here is the Dataset for the below questions.
+                                                        SQL ASSIGNMENT
+QUERY 1.Here is the Dataset for the below questions.
 Gold members Data Set--Column names : (userid integer, signup_date)
 ('John','09-22-2017'), ('Mary','04-21-2017')
 
@@ -34,7 +34,7 @@ Questions on above Dataset :
 19.Insert one more record as same (3,'Laptop',330) as product table
 20.Write a query to find the duplicates in product table
 
-2. Write a query to find for each date the number of different products sold and their names. 
+QUERY 2. Write a query to find for each date the number of different products sold and their names. 
 Column names: (sell_date, product)
 Data: ('2020-05-30', 'Headphones'),
 ('2020-06-01','Pencil'),
@@ -50,7 +50,7 @@ sell_date	num_sold	product_list
 2020-06-01	2	Book, Pencil
 2020-06-02	1	Mask
 
-3. Find the total salary of each department
+QUERY 3. Find the total salary of each department
 Column names:(id_deptname, emp_name, salary)
 Data: 
 ('1111-MATH', 'RAHUL', 10000),
@@ -71,7 +71,7 @@ Science	20000
 
 
 
-4.Write a query to find gmail accounts with latest and first signup date and difference between both the dates and also write the query to replace null value with ‘1970-01-01’
+QUERY 4.Write a query to find gmail accounts with latest and first signup date and difference between both the dates and also write the query to replace null value with ‘1970-01-01’
 Column names: (id, email_id, signup_date)
 Data:
 (1, 'Rajesh@Gmail.com', '2022-02-01'),
@@ -86,7 +86,7 @@ Output:
 count_gmail_account	latest_signup_date	first_signup_date	diff_in_days
 2	2022-02-01	2020-09-08	511
 
-5) Solve the below questions by creating below mentioned tables and adding the given dataset.
+QUERY 5) Solve the below questions by creating below mentioned tables and adding the given dataset.
 Hint: Solve using the Window Functions
 1)	create a table named sales_data with columns: product_id, sale_date, and  quantity_sold.
 2)	insert some sample data into the table:
