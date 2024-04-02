@@ -1,4 +1,4 @@
-
+--query-2 Write a query to find for each date the number of different products sold and their names. 
 CREATE TABLE product_details (
     sell_date DATE,
     product VARCHAR(50)
@@ -27,4 +27,6 @@ FROM
     ) AS subquery
 GROUP BY
     sell_date;
+
+
 
