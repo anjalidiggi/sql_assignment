@@ -1,3 +1,4 @@
+--query4-Write a query to find gmail accounts with latest and first signup date and difference between both the dates and also write the query to replace null value with ‘1970-01-01’
 CREATE TABLE email_signup (
     id INTEGER,
     email_id VARCHAR(100),
@@ -34,3 +35,4 @@ FROM
     gmail_accounts
 WHERE
     rn_latest = 1 OR rn_oldest = 1;
+
