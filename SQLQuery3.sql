@@ -1,4 +1,4 @@
-
+--query3-. Find the total salary of each department
 CREATE TABLE dept_tbl (
     id_deptname VARCHAR(50),
     emp_name VARCHAR(50),
@@ -24,3 +24,4 @@ FROM
     dept_tbl
 GROUP BY
     SUBSTRING(id_deptname, CHARINDEX('-', id_deptname) + 1, LEN(id_deptname));
+
